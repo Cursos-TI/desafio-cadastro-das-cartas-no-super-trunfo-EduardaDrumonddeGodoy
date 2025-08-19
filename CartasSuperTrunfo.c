@@ -1,22 +1,84 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+char estadoA[5], estadoB[5];
+char codA[3], codB[3];
+char nomeA[30], nomeB[30];
+int populacaoA, populacaoB;
+float areaA, areaB;
+float pibA, pibB;
+int turismoA, turismoB;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
+printf("Digite o Estado da Carta A: \n");
+scanf("%s",estadoA);
+
+printf("Digite o Código da Carta A: \n");
+scanf("%s",codA);
+
+printf("Digite o nome da cidade da Carta A: \n");
+scanf("%s",nomeA);
+
+printf("Digite a população da Carta A: \n");
+scanf("%d",&populacaoA);
+
+printf("Digite a área da Carta A: \n");
+scanf("%f",&areaA);
+
+printf("Digite o PIB da Carta A: \n");
+scanf("%f",&pibA);
+
+printf("Dgite a quantidade de pontos turisticos que existem na Carta A: \n");
+scanf("%d",&turismoA);
+
+
+printf("Digite o Estado da Carta B: \n");
+scanf("%s",estadoB);
+
+printf("Digite o Código da Carta B: \n");
+scanf("%s",codB);
+
+printf("Digite o nome da cidade da Carta B: \n");
+scanf("%s",nomeB);
+
+printf("Digite a população da Carta B: \n");
+scanf("%d",&populacaoB);
+
+printf("Digite a área da Carta B: \n");
+scanf("%f",&areaB);
+
+printf("Digite o PIB da Carta B: \n");
+scanf("%f",&pibB);
+
+printf("Dgite a quantidade de pontos turisticos que existem na Carta B: \n");
+scanf("%d",&turismoB);
+
+
+
+
+
+
+
+printf("CARTA A \n");
+printf("Código: %s.\n",codA);
+printf("Nome: %s.\n",nomeA);
+printf("População: %d habitantes.\n",populacaoA);
+printf("Área: %.2f km².\n",areaA);
+printf("PIB: %.2f. \n",pibA);
+printf("Quantidade de pontos turisticos: %d.\n",turismoA);
+
+printf("-------------------------------------\n");
+printf("CARTA B \n");
+printf("Código: %s.\n",codB);
+printf("Nome: %s.\n",nomeB);
+printf("População: %d habitantes.\n",populacaoB);
+printf("Área: %.2f km².\n",areaB);
+printf("PIB: %f. \n",pibB);
+printf("Quantidade de pontos turisticos: %d.\n",turismoB);
+
+
+
+
+
+return 0;
 }
